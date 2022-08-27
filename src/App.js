@@ -1,11 +1,16 @@
 import './App.css';
-import { Router } from 'react-router-dom';
-import {link,BrowserRouter} from 'react-router-dom'
+import { Route, } from 'react-router-dom';
+import Routing from './Router.component';
+import {BrowserRouter} from 'react-router-dom'
+import Header from './componentes/fiteurs/header/Header.component';
+import Footer from './componentes/fiteurs/footer/Footer.component';
 function App() {
   return (
     <div className="App">
      <BrowserRouter>
-     <Link></Link>
+     <Header/>
+     <Routing/>
+     <Footer/>
      </BrowserRouter>
     </div>
   );

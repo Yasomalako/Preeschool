@@ -1,12 +1,16 @@
 import "./header.css";
 import React from "react";
+import { Link } from "react-router-dom";
+export const pages = ["home","grades","ptc","teacher","contactus","pagenotfound"]
 
-function template() {
+function Header() {
   return (
     <div className="header">
-      <h1>header</h1>
+      <Link to="/"></Link>
+      {pages.map(pageName=>(<Link to={pageName}><button>{pageName}</button></Link>
+      ))}
     </div>
   );
 };
 
-export default template;
+export default Header;
