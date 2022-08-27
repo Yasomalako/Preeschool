@@ -4,7 +4,10 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-      <h1>home</h1>
+      <div className="container">
+       <h1 id="headLine">Yaso preeschool</h1>
+       
+      </div>
     </div>
   );
 };

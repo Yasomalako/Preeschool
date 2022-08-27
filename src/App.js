@@ -1,5 +1,4 @@
 import './App.css';
-import { Route, } from 'react-router-dom';
 import Routing from './Router.component';
 import {BrowserRouter} from 'react-router-dom'
 import Header from './componentes/fiteurs/header/Header.component';
