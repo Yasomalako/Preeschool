@@ -1,7 +1,8 @@
 import "./header.css";
 import React from "react";
 import { Link } from "react-router-dom";
-export const pages = ["home","grades","ptc","teacher","contactus","pagenotfound"]
+export const pages = 
+["home","grades","ptc","teacher","contactus"]
 
 function Header() {
   return (

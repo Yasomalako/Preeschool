@@ -1,6 +1,18 @@
 body{
   background-color: blanchedalmond;
 }
+.header{
+  width: 100vw;
+  height: 10vh;
+  color: white;
+  background: rgb(176, 244, 255);
+}
+.footer{
+  width: 100vw;
+  height: 13vh;
+  color: white;
+  background: rgb(176, 244, 255);
+}
 .App {
   text-align: center;
 }
